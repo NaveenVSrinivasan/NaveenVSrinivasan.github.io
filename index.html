@@ -37,7 +37,7 @@
         <!-- <script type="text/javascript" src="js/my-vis.js"></script> -->
         <script type="text/javascript">
 
-            d3.tsv('./EMBEDDINGS_PROCESSED', function loadCallback(error, data) {
+            d3.tsv('./EMBEDDINGS_PROCESSED_SCIBERT', function loadCallback(error, data) {
                 data.forEach(function(d) { // convert strings to numbers
                     d.x = +d.x;
                     d.y = +d.y;
